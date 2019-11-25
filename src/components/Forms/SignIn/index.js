@@ -23,7 +23,7 @@ function SignInForm({ onSignInPress, onSignUpPress }) {
 
   return (
     <View paddingH-35 paddingT-120>
-      <Text blue text30 strong marginB-45>
+      <Text blue text30 marginB-45>
         Sign In
       </Text>
       <TextField
