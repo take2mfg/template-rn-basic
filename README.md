@@ -7,7 +7,7 @@
 - Navigation ([react-navigation@next](https://reactnavigation.org/docs/en/next/getting-started.html))
 - Storybook
 - .env variables
-- Forms & Validation ([react-hook-form](https://react-hook-form.com/) & [yup]())
+- Forms & Validation ([react-hook-form](https://react-hook-form.com/) & [yup](https://github.com/jquense/yup))
 - Async bootApp() for app loading
 
 ## Getting Started
@@ -128,10 +128,12 @@ function MyComponent() {
 
 We are using the excellent [react-hook-form](https://react-hook-form.com/) library for form state management, which plays nicely with [react-native-ui-lib](https://github.com/wix/react-native-ui-lib).
 
-[Check here for the best example usage](./screens/SignIn/Form.js)
+For validation, we're using [yup](https://github.com/jquense/yup) schema validation, to automatically connect at a field-level.
+
+[Check here for the best example usage](https://github.com/take2mfg/template-rn-basic/blob/master/src/screens/SignIn/Form.js)
 
 ## async bootApp()
 
 Most native applications require some form of asyncronous app booting, which we support.
 
-[Find bootApp() here](./src/AppRoot.js)
+[Find bootApp() here](https://github.com/take2mfg/template-rn-basic/blob/master/src/AppRoot.js#L16-L28)
