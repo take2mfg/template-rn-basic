@@ -2,6 +2,7 @@ import { Typography, Colors, Constants, Assets } from 'react-native-ui-lib';
 
 Colors.loadColors({
   purple: '#452D97',
+  iosBlue: '#007AFF',
 });
 
 Typography.loadTypographies({

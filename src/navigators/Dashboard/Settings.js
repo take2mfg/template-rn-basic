@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native-ui-lib';
 
-function Dashboard({ navigation }) {
+function Settings({ navigation }) {
   return (
     <View flex center background-cyan10>
       <Text text50 white>
-        Dashboard
+        Settings
       </Text>
       <Button
         strong
@@ -19,4 +19,4 @@ function Dashboard({ navigation }) {
   );
 }
 
-export default Dashboard;
+export default Settings;

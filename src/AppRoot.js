@@ -7,6 +7,8 @@ import './theme';
 import Loading from './screens/Loading';
 import Main from './navigators/Main';
 
+import { loadIcons } from './icons';
+
 function App() {
   const [booted, setBooted] = useState(false);
 
@@ -16,10 +18,13 @@ function App() {
       // load icons
       // etc.
 
-      // Simulate boot time
+      await loadIcons();
+
+      // simulate long loading time
       setTimeout(() => {
         setBooted(true);
       }, 2000);
+
     }
 
     bootApp();
