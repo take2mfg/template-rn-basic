@@ -12,9 +12,14 @@
 
 ## Getting Started
 
+First, use this repo as a template (click the **Use this template** button):
+
+![image](https://user-images.githubusercontent.com/863020/69584350-91980880-0fa2-11ea-9c22-176d50ea12e1.png)
+
+Then, simply
 ```bash
-$ .... template repo
-$ git clone [copied repo name]
+$ git clone your-new-repo-url
+$ cd your-project-directory
 $ yarn
 $ yarn dev  # or yarn storybook
 ```
