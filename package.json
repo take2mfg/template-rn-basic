@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-navigation/core": "^5.0.0-alpha.24",
-    "@react-navigation/drawer": "^5.0.0-alpha.23",
+    "@react-navigation/drawer": "5.0.0-alpha.22",
     "@react-navigation/native": "^5.0.0-alpha.16",
     "expo": "^35.0.0",
     "lodash": "^4.17.15",

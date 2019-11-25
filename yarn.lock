@@ -1052,19 +1052,19 @@
     shortid "^2.2.15"
     use-subscription "^1.3.0"
 
-"@react-navigation/drawer@^5.0.0-alpha.23":
-  version "5.0.0-alpha.23"
-  resolved "https://registry.npmjs.org/@react-navigation/drawer/-/drawer-5.0.0-alpha.23.tgz#d4ef70e07b09e51f84b997d63e6885cf56ddedd8"
-  integrity sha512-thPLwXB5WHx8nSaQ2dwdn7QySSpnSTTf1f5XtxQ2YWfOAOycceBRpsre0g9L66ng+TzO97squWbHjSofQsN4nQ==
+"@react-navigation/drawer@5.0.0-alpha.22":
+  version "5.0.0-alpha.22"
+  resolved "https://registry.npmjs.org/@react-navigation/drawer/-/drawer-5.0.0-alpha.22.tgz#98e51529ab59f04522e1dff3dfddfe8e5f90f7fa"
+  integrity sha512-PCazABlf+TXsQ3PCYXY6LBA+a3BInodTcvQawinLZNBWJbii+9g9Oz6pz93+5NfmdCufAXQeOa8Siab3lBgc5w==
   dependencies:
-    "@react-navigation/routers" "^5.0.0-alpha.15"
+    "@react-navigation/routers" "^5.0.0-alpha.14"
 
 "@react-navigation/native@^5.0.0-alpha.16":
   version "5.0.0-alpha.16"
   resolved "https://registry.npmjs.org/@react-navigation/native/-/native-5.0.0-alpha.16.tgz#3b7e3649514ff2de1ce1ed8cf0723429379f4b48"
   integrity sha512-qCAnvmwGk0T04nY6KBV2Rdb6kwVGlQuMZtxUidqrWVrGHMUtKFVF5WFcYtUAcZw1QlqWXUQSZmy+CFoxtFKjXQ==
 
-"@react-navigation/routers@^5.0.0-alpha.15":
+"@react-navigation/routers@^5.0.0-alpha.14":
   version "5.0.0-alpha.15"
   resolved "https://registry.npmjs.org/@react-navigation/routers/-/routers-5.0.0-alpha.15.tgz#0e6b06dd1c3f65512ced5797e81a19e3a5fd734b"
   integrity sha512-ZIBOxusqIwGxJYdfHyhgueqyWaCbPIEFAJ0AfQchogl43O/+DxgRgtyXLI1iIxN9KTRT3kOcgMdfpYa8Y8OugQ==
