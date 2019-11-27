@@ -1,5 +1,10 @@
 # React Native (Expo) Template
 
+🛑 **STOP HERE** - Don't **Clone** this repo unless you're modifying the template.  Instead click the **Use this template** button.
+
+![image](https://user-images.githubusercontent.com/863020/69584350-91980880-0fa2-11ea-9c22-176d50ea12e1.png)
+
+
 ## Patterns Included
 
 - Clear folder structure
@@ -12,11 +17,8 @@
 
 ## Getting Started
 
-First, use this repo as a template (click the **Use this template** button):
+First, use this repo as a template (click the **Use this template** button). Then, simply:
 
-![image](https://user-images.githubusercontent.com/863020/69584350-91980880-0fa2-11ea-9c22-176d50ea12e1.png)
-
-Then, simply
 ```bash
 $ git clone your-new-repo-url
 $ cd your-project-directory
@@ -91,7 +93,7 @@ For a comprehensive understanding of how we utilize this, check out:
 [Storybook](https://storybook.js.org/docs/guides/guide-react-native/) is baked right in.  To start developing in components in Storybook, you simply need to:
 
 ```bash
-$ yarn             # if you haven't already installed
+$ yarn                      # if you haven't already installed
 $ yarn storybook
 ```
 
@@ -102,7 +104,7 @@ This will automatically replace your app root with the storybook root, and launc
 Environment variable support is baked in.  To use an environment variable in your app:
 
 ```bash
-$ cp sample.env .env      # clone the sample .env
+$ cp sample.env .env                # clone the sample .env
 ```
 
 Then replace any environment variables you need. E.g.
@@ -134,6 +136,8 @@ function MyComponent() {
 We are using the excellent [react-hook-form](https://react-hook-form.com/) library for form state management, which plays nicely with [react-native-ui-lib](https://github.com/wix/react-native-ui-lib).
 
 For validation, we're using [yup](https://github.com/jquense/yup) schema validation, to automatically connect at a field-level.
+
+<img src="https://user-images.githubusercontent.com/863020/69686622-ee202400-1085-11ea-9575-7c730e1deb46.png" style="width: 20rem">
 
 [Check here for the best example usage](https://github.com/take2mfg/template-rn-basic/blob/master/src/screens/SignIn/Form.js)
 
